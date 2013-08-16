@@ -25,7 +25,7 @@ begin
   ary=["hangman","catman","spiderman"]
   i= rand(0...3)
   myWord=ary[i]
-  puts myWord
+  #puts myWord
   ary2 = Array.new
   ary2= myWord.split("")
   sizeWord= ary2.size
@@ -90,7 +90,6 @@ begin
     puts myWord
     puts "congratulation"
   else
-
     puts "Correct Word is-->"+myWord
     puts "Sorry You Loosed"
   end
